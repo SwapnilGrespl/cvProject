@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&family=Lato:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #0D7587;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 783px;
+    width: 1063px;
+    background: #FFFFFF;
+    border-radius: 30px;
+
+}
+
+.divOne {
+    margin: 70px 0px 0px 70px;
+    display: flex;
+}
+
+.divOne img {
+    width: 288px;
+    height: 417px;
+    border-radius: 20px;
+}
+
+.divOne .aboutMe {
+    margin-top: -20px;
+    
+}
+
+.aboutMe {
+    position: relative;
+    left: 60px;
+}
+h4{
+    font-size: 14px;
+    color: #021335;
+}
+p{
+    color: #021335; 
+}
+.aboutMe p {
+    font-size: 14px;
+    margin-top: -15px;
+    line-height: 20px;
+   
+}
+
+.goals {
+   
+    margin-top: -25px;
+    margin-left: 95px;
+}
+
+.goals p {
+    font-size: 14px;
+    margin-top: -15px;
+    line-height: 20px;
+   
+}
+
+.goals ul {
+
+    margin-left: -20px;
+    margin-top: -10px;
+    font-size: 14px;
+    line-height: 20px;
+   
+}
+
+.midbox {
+    border-radius: 30px;
+    width: 412px;
+    height: 330px;
+    background: rgba(255, 82, 22, 0.8);
+    position: relative;
+    left: 328px;
+    top: -340px;
+    z-index: 10;
+}
+
+.midbox img {
+    margin: 35px 0px 0px 35px;
+    width: 40px;
+}
+
+.midbox p {
+   
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: -120px;
+    padding-left: 30px;
+    color: #FFFFFF;
+    z-index: 30;
+}
+
+.personalInfo {
+    position: relative;
+    bottom: 480px;
+    left: 100px;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 0px;
+    width: 20%;
+    height: auto;
+}
+
+.personalInfo .age {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img img {
+    position: relative;
+    right: -900px;
+    bottom: 600px;
+    display: inline-block;
+}
+
+.personality {
+    display: inline-block;
+    position: relative;
+    top: -470px;
+    margin-left: 35px;
+}
+
+.personality h4 {
+    margin-left: 30px;
+    margin-bottom: -2px;
+}
+
+.sectionPersonality {
+    display: inline-block;
+    margin-left: 30px;
+    width: 26%;
+
+}
+
+.sectionPersonality img {
+    width: 100%;
+}
+
+.personalityinfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+    font-size: 10px;
+    color: grey;
+}
