@@ -12,15 +12,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .container {
     height: 783px;
     width: 1063px;
     background: #FFFFFF;
     border-radius: 30px;
-
 }
-
 .divOne {
     margin: 70px 0px 0px 70px;
     display: flex;
@@ -36,7 +33,6 @@ body {
     margin-top: -20px;
     
 }
-
 .aboutMe {
     position: relative;
     left: 60px;
@@ -122,7 +118,7 @@ p{
 #img img {
     position: relative;
     right: -900px;
-    bottom: 600px;
+    bottom: 650px;
     display: inline-block;
 }
 
@@ -154,5 +150,11 @@ p{
     justify-content: space-between;
     margin-bottom: -15px;
     font-size: 10px;
-    color: grey;
+}
+
+.age p, .personalityinfo p{
+    color: #717886;
+}
+.age p b{
+    color: #021335;
 }
